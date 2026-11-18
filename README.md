@@ -21,8 +21,8 @@ To avoid fatal hypothermia and call for rescue, the climber must ascend to an ol
 
 * **Engine:** Cocos2d-x 3.17.2
 * **Language:** C++
-* **Build System:** CMake / Visual Studio (`proj.win32`) / Android Studio (`proj.android`)
+* **Build System:** Windows, Android
 
 ### Prerequisites
-* [Cocos2d-x 3.17.2](https://www.cocos.com/en/cocos2d-x)
+* [Cocos2d-x 3.17.2]([https://www.cocos.com/en/cocos2d-x](https://www.cocos.com/en/cocos2dx-download))
 * CMake 3.6+ and a supported IDE (Visual Studio, Xcode, Android Studio)
