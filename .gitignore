@@ -1,0 +1,141 @@
+# --- Cocos2d-x Engine ---
+/cocos2d/
+
+# --- General Build Outputs & CMake ---
+bin/
+build/
+obj/
+out/
+cmake-build-*/
+CMakeFiles/
+CMakeScripts/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+CMakeUserPresets.json
+Makefile
+
+# --- Windows (proj.win32 & MSVC / Visual Studio) ---
+Debug.win32/
+Release.win32/
+[Dd]ebug/
+[Rr]elease/
+[Xx]64/
+[Xx]86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+ipch/
+
+# User settings and IntelliSense databases
+*.suo
+*.user
+*.userprefs
+*.sdf
+*.opensdf
+*.VC.db*
+*.VC.opendb
+*.VC.VC.opendb
+*.vsidx
+*.sln.docstates
+
+# Intermediate and compiled binary files
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.exp
+*.lib
+*.dll
+*.exe
+*.aps
+*.tlog
+*.manifest
+*.res
+
+# Release optimizations (LTCG / Whole Program Optimization)
+*.iobj
+*.ipdb
+
+# MSBuild states and recipes
+*.recipe
+*.lastbuildstate
+*.FileListAbsolute.txt
+*.obj.dt.*
+
+# Precompiled Headers (ignore binary cache, keep source Prefix.pch for iOS/macOS)
+*.pch
+!Prefix.pch
+
+# Memory dumps (generated on game crash)
+*.dmp
+*.mdmp
+
+# --- Android (proj.android & Gradle / NDK) ---
+.gradle/
+.cxx/
+.externalNativeBuild/
+local.properties
+captures/
+.navigation/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Android signing keys (prevent accidental secret leaks)
+*.keystore
+*.jks
+
+# --- iOS & macOS (proj.ios_mac & Xcode) ---
+xcuserdata/
+DerivedData/
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.hmap
+*.ipa
+*.app
+*.dSYM.zip
+*.dSYM
+
+# --- IDEs & Editors ---
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# --- Logs, Backup & Temp ---
+*.log
+*.tmp
+*.bak
+*.crash
+~$*
+
+# --- Documents ---
+*.pdf
+*.doc
+*.docx
+
+# --- OS Specific ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+[Tt]humbs.db
+[Tt]humbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
